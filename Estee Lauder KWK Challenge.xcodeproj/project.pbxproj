@@ -11,6 +11,13 @@
 		F30A24762A4A99AF00C25881 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A24752A4A99AF00C25881 /* ContentView.swift */; };
 		F30A24782A4A99B100C25881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30A24772A4A99B100C25881 /* Assets.xcassets */; };
 		F30A247B2A4A99B100C25881 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30A247A2A4A99B100C25881 /* Preview Assets.xcassets */; };
+		F30A24CB2A4CF7BC00C25881 /* OptimaEL-Roman.otf in Resources */ = {isa = PBXBuildFile; fileRef = F30A24CA2A4CF7BC00C25881 /* OptimaEL-Roman.otf */; };
+		F30A24CE2A4CFBF600C25881 /* OptimaDisplay-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = F30A24CD2A4CFBF600C25881 /* OptimaDisplay-Book.otf */; };
+		F30A24D22A4CFF2B00C25881 /* OptimaDisplay-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F30A24D12A4CFF2B00C25881 /* OptimaDisplay-Roman.ttf */; };
+		F30A24D42A4D007800C25881 /* ShopCollectionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A24D32A4D007800C25881 /* ShopCollectionPage.swift */; };
+		F34CD0A82A631FD300DDCE0E /* square nutritious video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F34CD0A72A631FD300DDCE0E /* square nutritious video.mp4 */; };
+		F34ECA922A5E31A9004F5809 /* OptimaEL-Text.otf in Resources */ = {isa = PBXBuildFile; fileRef = F34ECA912A5E31A9004F5809 /* OptimaEL-Text.otf */; };
+		F34ECA942A5F7773004F5809 /* estee nutritious video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F34ECA932A5F7773004F5809 /* estee nutritious video.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,14 @@
 		F30A24752A4A99AF00C25881 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F30A24772A4A99B100C25881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F30A247A2A4A99B100C25881 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F30A24CA2A4CF7BC00C25881 /* OptimaEL-Roman.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaEL-Roman.otf"; sourceTree = "<group>"; };
+		F30A24CC2A4CF92E00C25881 /* Estee-Lauder-KWK-Challenge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Estee-Lauder-KWK-Challenge-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F30A24CD2A4CFBF600C25881 /* OptimaDisplay-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaDisplay-Book.otf"; sourceTree = "<group>"; };
+		F30A24D12A4CFF2B00C25881 /* OptimaDisplay-Roman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaDisplay-Roman.ttf"; sourceTree = "<group>"; };
+		F30A24D32A4D007800C25881 /* ShopCollectionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCollectionPage.swift; sourceTree = "<group>"; };
+		F34CD0A72A631FD300DDCE0E /* square nutritious video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "square nutritious video.mp4"; sourceTree = "<group>"; };
+		F34ECA912A5E31A9004F5809 /* OptimaEL-Text.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaEL-Text.otf"; sourceTree = "<group>"; };
+		F34ECA932A5F7773004F5809 /* estee nutritious video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "estee nutritious video.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +66,16 @@
 		F30A24722A4A99AE00C25881 /* Estee Lauder KWK Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				F30A24CC2A4CF92E00C25881 /* Estee-Lauder-KWK-Challenge-Info.plist */,
 				F30A24732A4A99AF00C25881 /* Estee_Lauder_KWK_ChallengeApp.swift */,
 				F30A24752A4A99AF00C25881 /* ContentView.swift */,
+				F30A24D32A4D007800C25881 /* ShopCollectionPage.swift */,
+				F34ECA932A5F7773004F5809 /* estee nutritious video.mp4 */,
+				F34CD0A72A631FD300DDCE0E /* square nutritious video.mp4 */,
+				F30A24D12A4CFF2B00C25881 /* OptimaDisplay-Roman.ttf */,
+				F30A24CD2A4CFBF600C25881 /* OptimaDisplay-Book.otf */,
+				F34ECA912A5E31A9004F5809 /* OptimaEL-Text.otf */,
+				F30A24CA2A4CF7BC00C25881 /* OptimaEL-Roman.otf */,
 				F30A24772A4A99B100C25881 /* Assets.xcassets */,
 				F30A24792A4A99B100C25881 /* Preview Content */,
 			);
@@ -125,8 +148,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F34CD0A82A631FD300DDCE0E /* square nutritious video.mp4 in Resources */,
 				F30A247B2A4A99B100C25881 /* Preview Assets.xcassets in Resources */,
+				F34ECA922A5E31A9004F5809 /* OptimaEL-Text.otf in Resources */,
+				F30A24CE2A4CFBF600C25881 /* OptimaDisplay-Book.otf in Resources */,
+				F30A24D22A4CFF2B00C25881 /* OptimaDisplay-Roman.ttf in Resources */,
+				F34ECA942A5F7773004F5809 /* estee nutritious video.mp4 in Resources */,
 				F30A24782A4A99B100C25881 /* Assets.xcassets in Resources */,
+				F30A24CB2A4CF7BC00C25881 /* OptimaEL-Roman.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +168,7 @@
 			files = (
 				F30A24762A4A99AF00C25881 /* ContentView.swift in Sources */,
 				F30A24742A4A99AF00C25881 /* Estee_Lauder_KWK_ChallengeApp.swift in Sources */,
+				F30A24D42A4D007800C25881 /* ShopCollectionPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +300,7 @@
 				DEVELOPMENT_TEAM = 5T8V7KT825;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Estee-Lauder-KWK-Challenge-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +330,7 @@
 				DEVELOPMENT_TEAM = 5T8V7KT825;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Estee-Lauder-KWK-Challenge-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
